@@ -38,7 +38,7 @@ label {
     padding: 10px 15px;
 }
 .hs-form-field label:not(.hs-error-msg) {
-    font-family: Lato;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     font-size: 13px;
     font-weight: normal;
 }
