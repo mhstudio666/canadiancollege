@@ -1,4 +1,3 @@
-<style>
 .hs-input {
     display: inline-block;
     width: 90%;
@@ -137,4 +136,3 @@ select.is-placeholder {
 .w-richtext figure.w-richtext-align-center.w-richtext-figure-type-image>div, .w-richtext figure.w-richtext-align-center[data-rt-type=image]>div {
     width: 100%;
 }
-</style>
