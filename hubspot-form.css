@@ -4,25 +4,20 @@
     max-width: 500px;
     height: 40px;
     padding: 9px 20px;
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 22px;
     color: #33475b;
     border: 1px solid #cbd6e2;
     box-sizing: border-box;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
     border-radius: 3px;
+    background-color: #f5f8fa; /* Consolidado para evitar repetición */
 }
 legend.hs-field-desc {
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     color: #7C98B6;
     font-size: 11px;
-}
-.hs-input:not([type=file]) {
-    background-color: #f5f8fa;
 }
 label {
     margin-bottom: 5px;
@@ -37,12 +32,7 @@ label {
     font-weight: normal;
     color: #33475b;
 }
-.hs-input:not([type=file]) {
-    background-color: #f5f8fa;
-}
 .hs-form-field input[type=text], .hs-form-field input[type=email], .hs-form-field input[type=phone], .hs-form-field input[type=number], .hs-form-field input[type=tel], .hs-form-field input[type=date], .hs-form-field select, .hs-form-field textarea {
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     border-radius: 15px;
     background-clip: padding-box;
     padding: 10px 15px;
@@ -62,37 +52,31 @@ select.is-placeholder {
     color: #666;
 }
 .hs-form li {
-    display:block;
+    display: block;
     text-align: -webkit-match-parent;
 }
 .hs-error-msgs label {
     color: #f2545b;
 }
 .hs-button {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  background-clip: padding-box;
-    font-size: 12px;
+    border-radius: 15px;
+    background-clip: padding-box;
+    font-size: 14px;
     line-height: 12px;
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     margin: 20px 0 0 0;
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
-    line-height: 12px;
     position: relative;
     text-align: center;
     transition: all .15s linear;
     background-color: #921555;
-    border-color:#921555;
+    border-color: #921555;
     color: #fff;
-    border-radius: 3px;
     border-style: solid;
     border-width: 1px;
-    font-size: 14px;
     padding: 12px 24px;
-    border-radius: 15px;
 }
 .hs-input[type=checkbox], .hs-input[type=radio] {
     cursor: pointer;
@@ -104,7 +88,7 @@ select.is-placeholder {
     border: none;
 }
 .legal-consent-container label:not(.hs-error-msg) {
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     color: #33475b;
     font-size: 14px;
 }
@@ -119,17 +103,12 @@ select.is-placeholder {
     margin: 0 auto;
     width: 500px;
 }
-.hs-form-field label:not(.hs-error-msg) {
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-}
 .legal-consent-container .hs-form-booleancheckbox-display p {
     margin: 0;
     display: inline;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
     font-size: 12px;
     line-height: 110%;
 }
